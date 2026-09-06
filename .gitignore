@@ -1,0 +1,85 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+_ReSharper*/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Publish output
+publish/
+PublishProfiles/*.pubxml.user
+
+# Local configuration / secrets
+appsettings.Local.json
+appsettings.*.Local.json
+*.local.json
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Logs and diagnostics
+*.log
+*.tlog
+*.tmp
+*.temp
+*.pid
+*.dmp
+*.mdmp
+
+# Docker local overrides
+compose.override.yml
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Tooling caches
+.cache/
+.npm/
+node_modules/

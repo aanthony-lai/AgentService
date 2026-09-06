@@ -1,0 +1,13 @@
+**/.dockerignore
+**/Dockerfile
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/TestResults
+**/*.user
+**/*.suo
+**/*.rsuser
+**/*.nupkg
